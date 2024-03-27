@@ -41,18 +41,18 @@ const PreviewCard = ({ data }) => {
 				{/* Header */}
 				<div className="d-flex justify-content-between flex-md-row flex-column invoice-spacing mt-0">
 					<div>
-						<h4 className="invoice-title">HOUSE 178 BAR</h4>
-						{/*<div className="logo-wrapper">*/}
-						{/*	<Media className="mr-25" left>*/}
-						{/*		<Media*/}
-						{/*			object*/}
-						{/*			className="rounded mr-50"*/}
-						{/*			src={'https://res.cloudinary.com/bringforthjoy/image/upload/v1661904167/house178_fyddgi.jpg'}*/}
-						{/*			alt="Generic placeholder image"*/}
-						{/*			height="80"*/}
-						{/*		/>*/}
-						{/*	</Media>*/}
-						{/*</div>*/}
+						<h4 className="invoice-title">VENITE MINI MART</h4>
+						<div className="logo-wrapper">
+							<Media className="mr-25" left>
+								<Media
+									object
+									className="rounded mr-50"
+									src={'https://veniteuniversity.edu.ng/wp-content/uploads/2023/09/D3339122-2CE1-4CF2-89A0-6FBEB2833628.jpeg'}
+									alt="Generic placeholder image"
+									height="80"
+								/>
+							</Media>
+						</div>
 						<CardText className="mb-25">{data.business?.name || ''}</CardText>
 						<CardText className="mb-25">{data.business?.address || ''}</CardText>
 						<CardText className="mb-0">{data.business?.phone || ''}</CardText>
@@ -148,11 +148,11 @@ const PreviewCard = ({ data }) => {
 			<CardBody className="invoice-padding pb-0">
 				<Row className="invoice-sales-total-wrapper">
 					<Col className="mt-md-0 mt-3" md="6" order={{ md: 1, lg: 2 }}>
-						<CardText className="mb-0">
+						{/* <CardText className="mb-0">
 							<span className="font-weight-bold">Waiter:</span> <span className="ml-75">{data.server.fullName}</span>
-						</CardText>
+						</CardText> */}
 						<CardText className="mb-0">
-							<span className="font-weight-bold">Initiated By:</span> <span className="ml-75">{data.user.fullName}</span>
+							<span className="font-weight-bold">Sales Rep:</span> <span className="ml-75">{data.user.fullName}</span>
 						</CardText>
 					</Col>
 					<Col className="d-flex justify-content-end" md="6" order={{ md: 2, lg: 1 }}>

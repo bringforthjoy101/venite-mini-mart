@@ -66,15 +66,15 @@ const Print = () => {
 							<h4 className="text-right mb-1" style={{ color: '#000000' }}>
 								Venite Mini Mart
 							</h4>
-							{/*<Media className="mr-25" center>*/}
-							{/*	<Media*/}
-							{/*		object*/}
-							{/*		className="rounded mr-50"*/}
-							{/*		src={'https://res.cloudinary.com/bringforthjoy/image/upload/v1661904167/house178_fyddgi.jpg'}*/}
-							{/*		alt="Generic placeholder image"*/}
-							{/*		height="80"*/}
-							{/*	/>*/}
-							{/*</Media>*/}
+							<Media className="mr-25" center>
+								<Media
+									object
+									className="rounded mr-50"
+									src={'https://veniteuniversity.edu.ng/wp-content/uploads/2023/09/D3339122-2CE1-4CF2-89A0-6FBEB2833628.jpeg'}
+									alt="Generic placeholder image"
+									height="80"
+								/>
+							</Media>
 						</div>
 						{/* <p className="mb-25">{selectedSale?.business?.name || ''}</p>
 						<p className="mb-25">{selectedSale?.business?.address || ''}</p>
@@ -145,7 +145,7 @@ const Print = () => {
 					</Col>
 					<Col className="mt-md-0 mt-3" md="6">
 						<p className="mb-0">
-							<span className="font-weight-bold">Waiter:</span> <span className="ml-75">{selectedSale?.server.fullName}</span>
+							<span className="font-weight-bold">Sales Rep:</span> <span className="ml-75">{selectedSale?.user.fullName}</span>
 						</p>
 					</Col>
 				</Row>
