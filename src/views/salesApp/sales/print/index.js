@@ -63,9 +63,6 @@ const Print = () => {
 				<div className="d-flex justify-content-between flex-md-row flex-column pb-2">
 					<div>
 						<div className="d-flex mb-1" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-							<h4 className="text-right mb-1" style={{ color: '#000000' }}>
-								Venite Mini Mart
-							</h4>
 							<Media className="mr-25" center>
 								<Media
 									object
@@ -75,6 +72,9 @@ const Print = () => {
 									height="80"
 								/>
 							</Media>
+							<h4 className="mb-1" style={{ color: '#000000' }}>
+								Venite Mini Mart
+							</h4>
 						</div>
 						{/* <p className="mb-25">{selectedSale?.business?.name || ''}</p>
 						<p className="mb-25">{selectedSale?.business?.address || ''}</p>

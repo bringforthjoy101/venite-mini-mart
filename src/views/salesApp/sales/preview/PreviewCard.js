@@ -40,8 +40,7 @@ const PreviewCard = ({ data }) => {
 			<CardBody className="invoice-padding pb-0">
 				{/* Header */}
 				<div className="d-flex justify-content-between flex-md-row flex-column invoice-spacing mt-0">
-					<div>
-						<h4 className="invoice-title">VENITE MINI MART</h4>
+					<div className="d-flex justify-content-between flex-md-row flex-column">
 						<div className="logo-wrapper">
 							<Media className="mr-25" left>
 								<Media
@@ -53,9 +52,11 @@ const PreviewCard = ({ data }) => {
 								/>
 							</Media>
 						</div>
-						<CardText className="mb-25">{data.business?.name || ''}</CardText>
+						<h4 className="invoice-title">VENITE MINI MART</h4>
+
+						{/* <CardText className="mb-25">{data.business?.name || ''}</CardText>
 						<CardText className="mb-25">{data.business?.address || ''}</CardText>
-						<CardText className="mb-0">{data.business?.phone || ''}</CardText>
+						<CardText className="mb-0">{data.business?.phone || ''}</CardText> */}
 					</div>
 					<div className="mt-md-0 mt-2">
 						<h4 className="invoice-title">
