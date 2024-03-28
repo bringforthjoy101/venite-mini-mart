@@ -83,7 +83,8 @@ export const LogInventory = ({ selectedInventory }) => {
 								onChange={(e) => setInventoryData({ ...inventoryData, department: e.target.value })}
 							>
 								<option value="">Select Department</option>
-								<option value="Bar">Bar</option>
+								<option value="Mart">Mart</option>
+								<option value="Store">Store</option>
 								<option value="Supplier">Supplier</option>
 							</AvInput>
 						</FormGroup>
